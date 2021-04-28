@@ -1,0 +1,56 @@
+// Info Contain
+
+.info-contain {
+  padding-top: 8em;
+  padding-bottom: 2em;
+}
+
+@include media-breakpoint-up(sm) {
+  .info-contain {
+    padding-top: 8em;
+    padding-bottom: 2em;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  .info-contain {
+    padding-top: 10em;
+    padding-bottom: 2em;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .info-contain {
+    padding-top: 10em;
+    padding-bottom: 2em;
+  }
+}
+
+@include media-breakpoint-up(xl) {
+  .info-contain {
+    padding-top: 10em;
+    padding-bottom: 2em;
+  }
+}
+
+.contact-form {
+  margin-top: 2em;
+  padding-top: 0.5em;
+  padding-bottom: 2em;
+  border-top: 1px solid black;
+  @include recursive-regular;
+}
+
+.contact-form-label {
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.form-group {
+  margin-top: 1.5em;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+}

@@ -1,0 +1,87 @@
+// Section Grid
+
+.section-grid {
+  padding-top: 6em;
+  padding-bottom: 1.1em;
+  padding-left: 1.1em;
+  padding-right: 1.1em;
+  background-color: #000000;
+  .image-square:hover {
+    opacity: 0.8;
+  }
+  .image-info {
+    font-size: 1rem;
+    text-align: center;
+    padding-top: 0.5em;
+    padding-bottom: 1.5em;
+    @include recursive-regular;
+    .image-cover-title {
+      @include recursive-regular;
+    }
+    a {
+      color: #ffffff;
+      text-decoration: none;
+    }
+    a:hover {
+      color: #555555;
+      text-decoration: none;
+    }
+  }
+}
+
+@include media-breakpoint-up(sm) {
+  .section-grid {
+    padding-top: 6em;
+    padding-bottom: 1.1em;
+    padding-left: 1.1em;
+    padding-right: 1.1em;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  .section-grid {
+    padding-top: 6em;
+    padding-bottom: 1.1em;
+    padding-left: 1.1em;
+    padding-right: 1.1em;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .section-grid {
+    padding-top: 6em;
+    padding-bottom: 1.1em;
+    padding-left: 1.1em;
+    padding-right: 1.1em;
+  }
+}
+
+@include media-breakpoint-up(xl) {
+  .section-grid {
+    padding-top: 8em;
+    padding-bottom: 2em;
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+}
+
+// Image Space
+.md-space {
+  margin-top: 0em;
+}
+
+@include media-breakpoint-up(md) {
+  .md-space {
+    margin-top: 2em;
+  }
+}
+
+.sm-space {
+  padding-top: 2em;
+}
+
+@include media-breakpoint-up(md) {
+  .sm-space {
+    padding-top: 0em;
+  }
+}
